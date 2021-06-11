@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Психологическая помощь</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-box">
+                <a href="tel:+79991234567" class="telephone"><h3>Связаться с нами</h3>
+                    <span></span>
+                </a>
+                    <div class="messengers">
+                        <a href="https://vk.com/soyayuda"><img src="images/vkontakte.svg" alt="vkontakte"></a>
+                        <a href="whatsapp://send?phone=+79991234567"><img src="images/whatsup.svg"alt="WhatsApp"></a> 
+                        <a href="tg://resolve?domain=НУЖНО ДОБАВИТЬ ИМЯ ПОЛЬЗОВАТЕЛЯ"><img src="images/telegram.svg" alt="Telegram"></a> 
+                        <a href="viber://chat?number=tel:+79991234567"><img src="images/viber.svg" alt="Viber"></a>
+                    </div>
+        </div>
+    </header>
+    <div class="container">
+    <div class="preview left-col">
+        <h1>Анонимная психологическая помощь</h1>
+        <img src="images/cof.png" alt="img">
+    </div>
+        <div class="preview right-col">
+            <h2>Дорогой друг!</h2>
+            <p class="first__paragraph">Приветствуем тебя на территории, где тебя <span>выслушают</span>, <span>поймут</span>, <span>поддержат</span> и обязательно <span>помогут</span>.
+                Здесь ты можешь быть расслаблен.
+                Ты можешь не называть своё настоящее имя или делиться личной информацией, которую ты хочешь оставить при себе.</p>
+            <p>Сделай первый шаг, расскажи о той сложности, которая повстречалась на твоём пути и мы найдем выход.
+            Всё, сказанное тобой останется здесь. Твоя конфиденциальность обеспечена.</p>
+            <p>Мы ждём тебя! <span>Решайся!</span></p>
+            <p>Для связи ты можешь воспользоваться электронной почтой, а также любым мессенджером, либо заполни анкету на сайте мы свяжемся с тобой сами.</p>
+            </div><!--left-col--> 
+        </div> <!--/.container-->
+        <footer>
+
+        </footer>         
+        <!--Modal-->
+        <div class="modal">
+            <div class="modal__window">
+                <div class="modal__content">
+                    <div class="modal__header">
+                        <p>Расскажи о себе и своей проблеме</p>
+                    </div>
+                    <div class="modal__blank">
+                        <div class="form">
+                            <input type="name" id="name" placeholder="Ваше имя" >
+                        </div>
+                        <div class="radios">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Муж</label>
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Жен</label>
+                        </div><!--/.radios-->
+                        <div class="form">
+                            <input type="date" id="date" name="DateOfBirth"
+                                placeholder="Введите дату">
+                        </div>
+                        <div class="wishes">
+                            <input type="text" placeholder="Ваши контакты для связи" min="1" max="120">
+                        </div>
+                        <textarea style="padding-left: 10px;" name="phrase" placeholder="Напишите ваши пожелания"></textarea>
+                                    <div class="button">
+                                        <button>Отправить</button>
+                                    </div> 
+                        <button class="modal__close" type="button">
+                            <img src="images/close.svg" alt="Close">
+                        </button>
+                    </div><!--/.blank-->
+                </div><!--/.modal__content-->
+            </div><!--/.modal__window-->
+        </div><!--/.modal-->
+        
+    </div>  
+      
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
