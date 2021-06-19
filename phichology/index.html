@@ -11,7 +11,7 @@
 <body>
     <header class="header">
         <div class="header-box">
-                <a href="tel:+79991234567" class="telephone"><h3>Связаться с нами</h3>
+                <a href="#" class="telephone" data-modal= '#questionnaire'><h3>Связаться с нами</h3>
                     <span></span>
                 </a>
                     <div class="messengers">
@@ -42,7 +42,7 @@
 
         </footer>         
         <!--Modal-->
-        <div class="modal">
+        <div class="modal" id="questionnaire">
             <div class="modal__window">
                 <div class="modal__content">
                     <div class="modal__header">
@@ -70,16 +70,15 @@
                                         <button>Отправить</button>
                                     </div> 
                         <button class="modal__close" type="button">
-                            <img src="images/close.svg" alt="Close">
+                            <img src="images/close.svg" alt="Close" data-modal-close>
                         </button>
                     </div><!--/.blank-->
                 </div><!--/.modal__content-->
             </div><!--/.modal__window-->
         </div><!--/.modal-->
-        
-    </div>  
+    
       
     <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
